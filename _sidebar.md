@@ -1,0 +1,6 @@
+﻿- [Глобальные сущности](scripting_global.md)
+- [Шаблон](scripting_template.md)
+- [Предметы](scripting_items.md)
+- [Слои](scripting_layers.md)
+- [Свойства](scripting_properties.md)
+- [Эффекты](scripting_effects.md)
