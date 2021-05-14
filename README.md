@@ -6,7 +6,8 @@
 
 Для помощи в разработке, отладке и тестировании скриптов предоставляется интерактивная среда разработки и тестирования.
 
-Редактор сценариев Carrot (в Template Preview, `Edit` > `Scripts`):
+Редактор сценариев Carrot 
+<br/>в **Template Preview**, `Edit` > `Scripts`
 
 ![Script Editor user interface](_images/scripteditor.png)
 
@@ -43,13 +44,13 @@
 
 ### Запуск отладчика
 После того, как вы настроите свою среду выполнения:
-- В Carrot Template Preview, `Edit` > `Scripts`. Откроется редактор сценариев Carrot.
+- В **Carrot Template Preview**, `Edit` > `Scripts`. Откроется редактор сценариев Carrot.
 - Выберите файл из каталога проекта VS Code, `Source` > `External File`, нажмите на кнопку `...` и укажите файл.
     
     ![Script Editor External File](_images/extfile.png)
 
-- В VS Code, `Run` > `Start Debugging` > `Attach to Carrot`.
-- В редакторе скриптов Carrot, выполните скрипт нажав на кнопку `Run` или <kbd>F5</kbd> на клавиатуре.
+- В **VS Code**, `Run` > `Start Debugging` > `Attach to Carrot`.
+- В **редакторе скриптов Carrot**, выполните скрипт нажав на кнопку `Run` или <kbd>F5</kbd> на клавиатуре.
 - Если скрипт выдаст какие-либо ошибки, вы сможете просматривать переменные и cтек вызовов (call stack).
 
     ![Script Editor & VS Code](_images/vscodedebug.png)
