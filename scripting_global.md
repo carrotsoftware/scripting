@@ -21,8 +21,8 @@ alert(string msg) | Отображает окно сообщения с указ
 ## Глобальные переменные
 
 ```javascript
-global("varname") = value;
-alert(global("varname"));
+global.varname = value;
+alert(global.varname);
 ```
 
 ## Изоляция
