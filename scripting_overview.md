@@ -44,3 +44,7 @@ External File | Внешний файл.
 ### Отладка
 
 Процесс подключения и настройки внешнего отладчика описан в разделе [Настройка VS Code](scripting_vscode.md?id=visual-studio-code)
+
+## Руководство AE
+
+Дополнительную информацию по скриптам AE можно посмотреть [здесь](https://ae-scripting.docsforadobe.dev/).
