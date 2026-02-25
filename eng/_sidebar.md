@@ -1,6 +1,0 @@
-﻿- [Global](scripting_global.md)
-- [Items](scripting_items.md)
-- [Layers](scripting_layers.md)
-- [Properties](scripting_properties.md)
-- [Effects](scripting_effects.md)
-- [Visual Studio Code](scripting_vscode.md)

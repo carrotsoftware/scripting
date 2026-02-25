@@ -1,0 +1,287 @@
+:root {
+  /* =====================================================
+  App (Theme properties for application styles)
+  ===================================================== */
+
+
+  /* Theme */
+
+  --theme-color: #ffdd00ce;
+
+  /* Typography */
+
+  --modular-scale: 1.333;
+
+  --modular-scale--2: calc(var(--modular-scale--1) / var(--modular-scale));
+  --modular-scale--1: calc(var(--modular-scale-1) / var(--modular-scale));
+  --modular-scale-1: 1rem;
+  --modular-scale-2: calc(var(--modular-scale-1) * var(--modular-scale));
+  --modular-scale-3: calc(var(--modular-scale-2) * var(--modular-scale));
+  --modular-scale-4: calc(var(--modular-scale-3) * var(--modular-scale));
+  --modular-scale-5: calc(var(--modular-scale-4) * var(--modular-scale));
+
+  --font-size-xxxl: var(--modular-scale-5);
+  --font-size-xxl: var(--modular-scale-4);
+  --font-size-xl: var(--modular-scale-3);
+  --font-size-l: var(--modular-scale-2);
+  --font-size-m: var(--modular-scale-1);
+  --font-size-s: var(--modular-scale--1);
+  --font-size-xs: var(--modular-scale--2);
+
+
+  /* =====================================================
+  Base (Theme properties for base styles)
+  ===================================================== */
+
+
+  /* Background color */
+  --base-background-color: #1d1d1f;
+
+  /* Font */
+  --base-color: #f5f5f7; 
+  --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --base-font-size: 16px;
+  --base-line-height: 1.7;
+  --base-font-weight: normal;
+
+  /* Selection color */
+  --selection-color: #ffdd00ce; 
+
+  /* Horizontal Rule */
+  --hr-border: 4px solid #f5f5f7;
+
+  /* Strong */
+  /* --strong-font-weight: 800; */
+
+
+  /* =====================================================
+  Content
+  ===================================================== */
+
+  --content-max-width: 1350px;
+
+  /* Blockquote */
+
+  --blockquote-background: #2a2a2c;
+  --blockquote-border-radius: 10px;
+
+  /* Code */
+
+  --code-theme-background: #2a2a2c;
+  --code-theme-text: #f5f5f7;
+  --code-font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  --code-block-border-radius: 10px;
+
+  --code-inline-background: #3a3a3a;
+  --code-inline-color: #f5f5f7;
+
+  /* Headings */
+
+  --heading-color: #f5f5f7;
+
+  --heading-h1-color: #ffdd00ce;
+  --heading-h1-font-size: var(--font-size-xxl);
+
+  --heading-h3-font-size: var(--font-size-xl);
+
+  --heading-h4-font-size: var(--font-size-l);
+
+  --heading-h5-font-size: var(--font-size-l);
+
+  --heading-h6-font-size: var(--font-size-l);
+
+  /* Links */
+
+  --link-color: #ffdd00ce;
+
+  /* Notice */
+
+  --notice-border-radius: 10px;
+
+  /* Notice - Important */
+
+  --notice-important-background: #2a2a2c;
+
+  /* Notice - Tip */
+
+  --notice-tip-background: #2a2a2c;
+
+  /* Tables */
+
+  --table-head-background: #2a2a2c;
+  --table-cell-border-color: #c7c7c780;
+
+  --table-row-even-background: #2a2a2c;
+  --table-row-odd-background: #2a2a2c;
+
+
+  /* =====================================================
+  Sidebar
+  ===================================================== */
+
+
+  /* Main */
+
+  --sidebar-background: #1d1d1f;
+
+  --sidebar-border-color: #2a2a2c;
+
+  --sidebar-width: 350px;
+
+  /* Name */
+
+  --sidebar-name-background: #1d1d1f;
+  --sidebar-name-color: #1d1d1f;
+
+  /* Nav Links */
+
+  --sidebar-nav-link-color: #c7c7c780;
+
+  --sidebar-nav-link-background--active: #2a2a2c;
+  --sidebar-nav-link-border-radius: 10px;
+
+  /* Toggle */
+
+  --sidebar-toggle-background: #2a2a2c;
+
+
+  /* =====================================================
+  Navbar
+  ===================================================== */
+
+
+  /* Root */
+
+  --navbar-background: #2a2a2c;
+
+  /* Menus */
+
+  --navbar-menu-background: #2a2a2c;
+  --navbar-menu-border-radius: 10px;
+  --navbar-menu-box-shadow: none;
+
+  /* Menu Links */
+
+  --navbar-menu-link-color--active: #ffdd00ce;
+
+  /* =====================================================
+  Search
+  ===================================================== */
+
+
+  /* Main */
+
+  --search-background: #1d1d1f;
+  --search-background-shadow: none;
+  --search-margin: 16px;
+
+  /* Clear Button */
+
+  --search-clear-icon-color1: #2a2a2c;
+  --search-clear-icon-color2: #f5f5f7;
+
+  /* Input */
+
+  --search-input-background-color: #1d1d1f;
+
+  --search-input-border-radius: 10px;
+  --search-input-border-width: 1px;
+
+  --search-input-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(199, 199, 199, 0.502)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10.5' cy='10.5' r='7.5'/%3E%3Cline x1='21' y1='21' x2='15.8' y2='15.8'/%3E%3C/svg%3E");
+  --search-input-background-size: 16px 16px;
+
+  --search-input-icon-color: #c7c7c780;
+  --search-input-color: #c7c7c780;
+  --search-input-placeholder-color: #c7c7c780;
+  --search-input-border-color: #c7c7c780;
+
+  /* Results */
+
+  --search-result-heading-color: #f5f5f7;
+  --search-result-item-color: #c7c7c780;
+  --search-result-keyword-color: #2a2a2c;
+
+  --search-result-keyword-background: #fedc00bd;
+  --search-result-keyword-border-radius: 4px;
+
+
+  /* =====================================================
+  Zoom Image
+  ===================================================== */
+  
+  
+  --zoomimage-overlay-background: #1d1d1f;
+
+  /* =====================================================
+     Scrollbar (Webkit)
+     ===================================================== */
+  /* --scrollbar-track-background: #1d1d1f;
+  --scrollbar-thumb-background: #1d1d1f;
+  --scrollbar-thumb-background--hover: #1d1d1f; */
+}
+
+.markdown-section img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  outline: 4px solid #2a2a2c;
+}
+
+.markdown-section table {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 4px solid #2a2a2c;
+  border-collapse: separate;
+}
+
+.markdown-section ol li::marker,
+.markdown-section ul li::marker {
+  color: #ffdd00ce;
+  font-weight: bold;
+}
+
+.scroll-to-top {
+  border-radius: 10px !important;
+  background-color: #2a2a2c !important;
+  box-shadow: none !important;
+  border: none !important;
+
+  background-image: url('/public/icons/top_arrow.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+  
+  font-size: 0 !important;
+}
+
+.app-nav {
+  background-color: #2a2a2c;
+
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+
+  top: 15px !important;
+  right: 15px !important;
+  left: auto !important;
+  max-width: none !important;
+  position: fixed;
+}
+
+.sidebar .app-name img {
+  max-width: 180px;
+  padding-bottom: 15px;
+  height: auto;
+}
+
+.search input:focus {
+  box-shadow: 0 0 10px #c7c7c780 !important;
+  border-radius: 10px;
+}
+/* .sidebar-nav::before {
+  content: '' !important;
+  display: block !important;
+  background: url('/src/assets/icons/carrot_logo.svg') no-repeat center !important;
+} */
+
+

@@ -1,59 +1,29 @@
-﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="UTF-8" />
-    <title>Carrot Scripting Documentation</title>
-    <link rel="icon" href="https://www.carrot.software/wp-content/uploads/2020/06/cropped-site_logo_512x512-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://www.carrot.software/wp-content/uploads/2020/06/cropped-site_logo_512x512-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://www.carrot.software/wp-content/uploads/2020/06/cropped-site_logo_512x512-180x180.png" />
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages" />
-    <meta name="description" content="Carrot Scripting Documentation." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-    <style>
-        nav.app-nav li ul {
-            min-width: 100px;
-        }
-
-        #carbonads {
-            box-shadow: none !important;
-            width: auto !important;
-        }
-
-        :root {
-            --sidebar-name-background: ;
-            --sidebar-name-color: ;
-        }
-    </style>
-</head>
-<body>
-    <div id="app">Please wait...</div>
-    <script>
-        window.$docsify = {
-            name: 'Carrot Script',
-            loadSidebar: true,
-            maxLevel: 4,
-            subMaxLevel: 3,
-            loadNavbar: true,
-            mergeNavbar: false,
-
-            search: {
-                noData: {
-                    '/eng/': 'No results!',
-                    '/': 'Никаких результатов!',
-                },
-                paths: 'auto',
-                placeholder: {
-                    '/eng/': 'Search',
-                    '/': 'Поиск',
-                },
-                pathNamespaces: ['/eng']
-            },  
-        }
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Руководство пользователя">
+    <title>Carrot Scripting Guide</title>
+    <link rel="icon" href="assets/icons/carrot-scripts-favicon.svg" />
+    <!-- Connect "Simple Dark" theme "docsify-themeable" -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Connect main JS config -->
+    <script src="src/js/main.js"></script>
+    <!-- Docsify -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> <!-- Load "docsify ver. 4" -->
+    <!-- Docsify-themeable -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script> <!-- Load "docsify-themeable" -->
+    <!-- Additional dependencies -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script> <!-- Load "Full text search {search}"" -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> <!-- Load "Zoomimage" -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script> <!-- Load "Scroll to top button" -->
+  </body>
 </html>
+
