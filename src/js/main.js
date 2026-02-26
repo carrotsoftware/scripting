@@ -14,14 +14,14 @@ window.$docsify = {
     logo: '/assets/icons/carrot-scripts-logo.svg',
 
     // Navbar (default docsify function)
-    loadNavbar: '_navbar.md',
+    //loadNavbar: '_navbar.md',
 
     // Full text search
     search: {
         paths: 'auto',
+        depth: 6, 
         placeholder: 'Нужное ищем здесь',
-        noData: 'Ничего не найдено, измени запрос!',
-        pathNamespaces: true,
+        noData: 'Ничего не найдено, измени запрос!'
     },
 
     scrollToTop: {
